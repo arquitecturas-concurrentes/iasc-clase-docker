@@ -1,0 +1,60 @@
+Docker
+-------
+
+Problema de Erlang del estado del disco
+Repetibilidad
+
+Compatibilidad del software con el SO y el HW
+Manejar distintos parches y dependencias
+Como nos fijamos la compatibilidad de todo?
+  Matrix from hell
+  Process Isolation
+
+Soluciónes repetibles?
+  Ambientes controlados.
+
+Setup time / different dev+test+prod environments
+
+Vms
+
+Docker
+
+Container
+Ambientes totalmente aislados (network, storage, hw, etc) pero que comparten kernel
+El container vive mientras el proceso que corre está vivo. Como determinar que proceso corre
+  Entrypoint vs CMD
+
+[
+  PROCESS
+  NETWORK
+  VOLUMES
+]
+[Doker]
+[OS Kernel]
+
+Docker vs Hypervisor.
+Mejor uso de recursos
+
+Se empieza a usar como una forma de packaging para apps
+
+Imagen
+  Construir una imagen
+
+  Arquitectura en capas en la imágen
+    Diff entre cada instrucción de la definición
+    COMANDO: docker history $IMG_NAME
+    build
+    Cada capa se cachea. Entonces si falla una etapa no hay que empezar desde cero.
+
+
+  Tags
+
+
+Mapeos de puertos
+  Buscar imagenes
+  Muchas aplicaciones en distintos puertos
+
+Volumenes
+
+
+Ejercicio: Dockerizar los de cuando viene
