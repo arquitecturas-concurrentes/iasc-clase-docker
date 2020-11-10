@@ -2,7 +2,11 @@ FROM node:12
 
 RUN npm i -g serve
 
-WORKDIR app
+WORKDIR /app
+
+RUN mkdir files
+
+COPY files ./files
 
 ENTRYPOINT ["serve", "files"]
 
