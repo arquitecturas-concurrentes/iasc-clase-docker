@@ -1,4 +1,4 @@
-FROM ernesto85/iasc-go-alpine:0.1
+FROM ernesto85/iasc-go-alpine:latest
 
 ENV APP_NAME iascgo
 
