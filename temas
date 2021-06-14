@@ -2,12 +2,17 @@ Docker
 -------
 
 Problema de Erlang del estado del disco
+
+## Problematicas de mantener una instancia de desarrollo/staging/prod..
+
 Repetibilidad
 
 Compatibilidad del software con el SO y el HW
 Manejar distintos parches y dependencias
+
+
 Como nos fijamos la compatibilidad de todo?
-  Matrix from hell
+  Matrix from hell => tabla de decisiones
   Process Isolation
 
 Soluciónes repetibles?
@@ -15,7 +20,7 @@ Soluciónes repetibles?
 
 Setup time / different dev+test+prod environments
 
-Vms
+Virtualizacion -> VMs
 
 Docker
 
@@ -45,7 +50,7 @@ Imagen
     COMANDO: docker history $IMG_NAME
     build
     Cada capa se cachea. Entonces si falla una etapa no hay que empezar desde cero.
-
+    docker stop(SIGTERM) != docker kill(SIGKILL)
 
   Tags
 

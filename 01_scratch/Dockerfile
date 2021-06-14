@@ -1,7 +1,9 @@
-FROM alpine
+FROM alpine:latest
 
 RUN echo HOLA! > archivo
 
-ENTRYPOINT ["sleep"]
+RUN apk add git
 
-CMD ["5"]
+ENTRYPOINT [ "sleep" ]
+
+CMD ["50"]
