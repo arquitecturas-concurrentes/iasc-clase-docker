@@ -6,4 +6,4 @@ https://docs.google.com/presentation/d/1ixAEjzfGDhXnK9N26dp_2pgjPHpUF0KegG-K0PeZ
 
 ### Contenido post clase
 
-https://arquitecturas-concurrentes.github.io/iasc-book/contenedores/
+https://arquitecturas-concurrentes.github.io/iasc-book/intro_contenedores
