@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -p 80:80 kennethreitz/httpbin
+docker run --name httpbin_example -p 80:80 kennethreitz/httpbin
