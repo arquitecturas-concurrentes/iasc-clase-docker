@@ -1,0 +1,9 @@
+docker top <container_name>
+docker stats <container name>
+
+
+sudo docker exec -d <docker name or ID> touch /etc/new_config_file
+sudo docker exec -t -i <docker name or ID> /bin/bash
+
+cambiar el restart always a on-failure
+
