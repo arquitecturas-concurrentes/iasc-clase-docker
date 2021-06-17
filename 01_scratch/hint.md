@@ -1,7 +1,22 @@
 1. Echo
-2. Crear archivo + cat 
+2. Echo a un archivo
 3. Sleep + CMD
 4. Sleep parametrizado. Entrypoint + CMD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 FROM alpine:latest
 

@@ -1,2 +1,2 @@
 docker build -t iasc-static-serve .
-docker run -p 5000:5000 -v /home/ernesto/iasc/worshop-docker/04_volumes/files:/app/files iasc-static-serve
+docker run -p 5000:5000 -v /home/ernesto/utn/iasc/worshop-docker/04_volumes/files:/app/files iasc-static-serve

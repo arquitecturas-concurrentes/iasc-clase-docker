@@ -1,0 +1,1 @@
+sudo docker run --name contenedor_de_ernesto -i -t ubuntu /bin/bash
