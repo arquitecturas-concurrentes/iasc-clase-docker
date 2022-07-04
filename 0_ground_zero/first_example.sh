@@ -1,1 +1,1 @@
-sudo docker run -i -t ubuntu /bin/bash
+docker run -i -t ubuntu /bin/bash
